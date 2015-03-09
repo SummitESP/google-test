@@ -17,8 +17,3 @@ def build(bld):
 GTEST_SOURCE = [
     'src/gtest-all.cc'
 ]
-
-GTEST_INCLUDE = [
-    './',
-    'include/',
-]
