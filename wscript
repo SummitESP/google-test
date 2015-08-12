@@ -17,6 +17,7 @@ def build(bld):
     if bld.variant and bld.variant == 'test':
         bld.stlib(source=GTEST_SOURCE,
                   includes=GTEST_INCLUDE,
+                  cppcheck_skip=True,
                   target='gtest')
 
 GTEST_SOURCE = [
